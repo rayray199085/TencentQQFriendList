@@ -8,13 +8,19 @@
 
 /* Begin PBXBuildFile section */
 		0D6E22E62212287D003B05CA /* AppDelegate.m in Sources */ = {isa = PBXBuildFile; fileRef = 0D6E22E52212287D003B05CA /* AppDelegate.m */; };
-		0D6E22E92212287D003B05CA /* ViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 0D6E22E82212287D003B05CA /* ViewController.m */; };
 		0D6E22EC2212287D003B05CA /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 0D6E22EA2212287D003B05CA /* Main.storyboard */; };
 		0D6E22EE2212287E003B05CA /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 0D6E22ED2212287E003B05CA /* Assets.xcassets */; };
 		0D6E22F12212287E003B05CA /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 0D6E22EF2212287E003B05CA /* LaunchScreen.storyboard */; };
 		0D6E22F42212287E003B05CA /* main.m in Sources */ = {isa = PBXBuildFile; fileRef = 0D6E22F32212287E003B05CA /* main.m */; };
 		0D6E22FE2212287E003B05CA /* TecentQQFriendListTests.m in Sources */ = {isa = PBXBuildFile; fileRef = 0D6E22FD2212287E003B05CA /* TecentQQFriendListTests.m */; };
 		0D6E23092212287E003B05CA /* TecentQQFriendListUITests.m in Sources */ = {isa = PBXBuildFile; fileRef = 0D6E23082212287E003B05CA /* TecentQQFriendListUITests.m */; };
+		0D6E231C22122987003B05CA /* SCTableViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 0D6E231B22122987003B05CA /* SCTableViewController.m */; };
+		0D6E232022122CDB003B05CA /* friends.plist in Resources */ = {isa = PBXBuildFile; fileRef = 0D6E231F22122CDB003B05CA /* friends.plist */; };
+		0D6E232322122D0D003B05CA /* SCFriend.m in Sources */ = {isa = PBXBuildFile; fileRef = 0D6E232222122D0D003B05CA /* SCFriend.m */; };
+		0D6E232622122E02003B05CA /* SCGroup.m in Sources */ = {isa = PBXBuildFile; fileRef = 0D6E232522122E02003B05CA /* SCGroup.m */; };
+		0D6E232A221238E7003B05CA /* NSString+SCSizeOfString.m in Sources */ = {isa = PBXBuildFile; fileRef = 0D6E2329221238E7003B05CA /* NSString+SCSizeOfString.m */; };
+		0D6E232D2212407A003B05CA /* SCTableViewCell.m in Sources */ = {isa = PBXBuildFile; fileRef = 0D6E232C2212407A003B05CA /* SCTableViewCell.m */; };
+		0D6E233022124448003B05CA /* SCHeaderView.m in Sources */ = {isa = PBXBuildFile; fileRef = 0D6E232F22124448003B05CA /* SCHeaderView.m */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXContainerItemProxy section */
@@ -38,8 +44,6 @@
 		0D6E22E12212287D003B05CA /* TecentQQFriendList.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = TecentQQFriendList.app; sourceTree = BUILT_PRODUCTS_DIR; };
 		0D6E22E42212287D003B05CA /* AppDelegate.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = AppDelegate.h; sourceTree = "<group>"; };
 		0D6E22E52212287D003B05CA /* AppDelegate.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = AppDelegate.m; sourceTree = "<group>"; };
-		0D6E22E72212287D003B05CA /* ViewController.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = ViewController.h; sourceTree = "<group>"; };
-		0D6E22E82212287D003B05CA /* ViewController.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = ViewController.m; sourceTree = "<group>"; };
 		0D6E22EB2212287D003B05CA /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/Main.storyboard; sourceTree = "<group>"; };
 		0D6E22ED2212287E003B05CA /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
 		0D6E22F02212287E003B05CA /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/LaunchScreen.storyboard; sourceTree = "<group>"; };
@@ -51,6 +55,19 @@
 		0D6E23042212287E003B05CA /* TecentQQFriendListUITests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = TecentQQFriendListUITests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
 		0D6E23082212287E003B05CA /* TecentQQFriendListUITests.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = TecentQQFriendListUITests.m; sourceTree = "<group>"; };
 		0D6E230A2212287E003B05CA /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		0D6E231A22122987003B05CA /* SCTableViewController.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = SCTableViewController.h; sourceTree = "<group>"; };
+		0D6E231B22122987003B05CA /* SCTableViewController.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = SCTableViewController.m; sourceTree = "<group>"; };
+		0D6E231F22122CDB003B05CA /* friends.plist */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text.plist.xml; path = friends.plist; sourceTree = "<group>"; };
+		0D6E232122122D0D003B05CA /* SCFriend.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = SCFriend.h; sourceTree = "<group>"; };
+		0D6E232222122D0D003B05CA /* SCFriend.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = SCFriend.m; sourceTree = "<group>"; };
+		0D6E232422122E02003B05CA /* SCGroup.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = SCGroup.h; sourceTree = "<group>"; };
+		0D6E232522122E02003B05CA /* SCGroup.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = SCGroup.m; sourceTree = "<group>"; };
+		0D6E2328221238E7003B05CA /* NSString+SCSizeOfString.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = "NSString+SCSizeOfString.h"; sourceTree = "<group>"; };
+		0D6E2329221238E7003B05CA /* NSString+SCSizeOfString.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = "NSString+SCSizeOfString.m"; sourceTree = "<group>"; };
+		0D6E232B2212407A003B05CA /* SCTableViewCell.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = SCTableViewCell.h; sourceTree = "<group>"; };
+		0D6E232C2212407A003B05CA /* SCTableViewCell.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = SCTableViewCell.m; sourceTree = "<group>"; };
+		0D6E232E22124448003B05CA /* SCHeaderView.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = SCHeaderView.h; sourceTree = "<group>"; };
+		0D6E232F22124448003B05CA /* SCHeaderView.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = SCHeaderView.m; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -101,15 +118,14 @@
 		0D6E22E32212287D003B05CA /* TecentQQFriendList */ = {
 			isa = PBXGroup;
 			children = (
-				0D6E22E42212287D003B05CA /* AppDelegate.h */,
-				0D6E22E52212287D003B05CA /* AppDelegate.m */,
-				0D6E22E72212287D003B05CA /* ViewController.h */,
-				0D6E22E82212287D003B05CA /* ViewController.m */,
-				0D6E22EA2212287D003B05CA /* Main.storyboard */,
+				0D6E2319221228A6003B05CA /* Others */,
+				0D6E231822122899003B05CA /* Controllers */,
+				0D6E231722122893003B05CA /* Views */,
+				0D6E23162212288D003B05CA /* Models */,
 				0D6E22ED2212287E003B05CA /* Assets.xcassets */,
-				0D6E22EF2212287E003B05CA /* LaunchScreen.storyboard */,
 				0D6E22F22212287E003B05CA /* Info.plist */,
 				0D6E22F32212287E003B05CA /* main.m */,
+				0D6E231F22122CDB003B05CA /* friends.plist */,
 			);
 			path = TecentQQFriendList;
 			sourceTree = "<group>";
@@ -130,6 +146,58 @@
 				0D6E230A2212287E003B05CA /* Info.plist */,
 			);
 			path = TecentQQFriendListUITests;
+			sourceTree = "<group>";
+		};
+		0D6E23162212288D003B05CA /* Models */ = {
+			isa = PBXGroup;
+			children = (
+				0D6E232122122D0D003B05CA /* SCFriend.h */,
+				0D6E232222122D0D003B05CA /* SCFriend.m */,
+				0D6E232422122E02003B05CA /* SCGroup.h */,
+				0D6E232522122E02003B05CA /* SCGroup.m */,
+			);
+			name = Models;
+			sourceTree = "<group>";
+		};
+		0D6E231722122893003B05CA /* Views */ = {
+			isa = PBXGroup;
+			children = (
+				0D6E22EA2212287D003B05CA /* Main.storyboard */,
+				0D6E22EF2212287E003B05CA /* LaunchScreen.storyboard */,
+				0D6E232B2212407A003B05CA /* SCTableViewCell.h */,
+				0D6E232C2212407A003B05CA /* SCTableViewCell.m */,
+				0D6E232E22124448003B05CA /* SCHeaderView.h */,
+				0D6E232F22124448003B05CA /* SCHeaderView.m */,
+			);
+			name = Views;
+			sourceTree = "<group>";
+		};
+		0D6E231822122899003B05CA /* Controllers */ = {
+			isa = PBXGroup;
+			children = (
+				0D6E231A22122987003B05CA /* SCTableViewController.h */,
+				0D6E231B22122987003B05CA /* SCTableViewController.m */,
+			);
+			name = Controllers;
+			sourceTree = "<group>";
+		};
+		0D6E2319221228A6003B05CA /* Others */ = {
+			isa = PBXGroup;
+			children = (
+				0D6E2327221238B7003B05CA /* categories */,
+				0D6E22E42212287D003B05CA /* AppDelegate.h */,
+				0D6E22E52212287D003B05CA /* AppDelegate.m */,
+			);
+			name = Others;
+			sourceTree = "<group>";
+		};
+		0D6E2327221238B7003B05CA /* categories */ = {
+			isa = PBXGroup;
+			children = (
+				0D6E2328221238E7003B05CA /* NSString+SCSizeOfString.h */,
+				0D6E2329221238E7003B05CA /* NSString+SCSizeOfString.m */,
+			);
+			name = categories;
 			sourceTree = "<group>";
 		};
 /* End PBXGroup section */
@@ -194,6 +262,7 @@
 		0D6E22D92212287D003B05CA /* Project object */ = {
 			isa = PBXProject;
 			attributes = {
+				CLASSPREFIX = SC;
 				LastUpgradeCheck = 1010;
 				ORGANIZATIONNAME = "Stephen Cao";
 				TargetAttributes = {
@@ -237,6 +306,7 @@
 			files = (
 				0D6E22F12212287E003B05CA /* LaunchScreen.storyboard in Resources */,
 				0D6E22EE2212287E003B05CA /* Assets.xcassets in Resources */,
+				0D6E232022122CDB003B05CA /* friends.plist in Resources */,
 				0D6E22EC2212287D003B05CA /* Main.storyboard in Resources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
@@ -262,9 +332,14 @@
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
-				0D6E22E92212287D003B05CA /* ViewController.m in Sources */,
+				0D6E232A221238E7003B05CA /* NSString+SCSizeOfString.m in Sources */,
+				0D6E232D2212407A003B05CA /* SCTableViewCell.m in Sources */,
 				0D6E22F42212287E003B05CA /* main.m in Sources */,
+				0D6E233022124448003B05CA /* SCHeaderView.m in Sources */,
 				0D6E22E62212287D003B05CA /* AppDelegate.m in Sources */,
+				0D6E231C22122987003B05CA /* SCTableViewController.m in Sources */,
+				0D6E232322122D0D003B05CA /* SCFriend.m in Sources */,
+				0D6E232622122E02003B05CA /* SCGroup.m in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
